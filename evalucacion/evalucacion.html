@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evaluacion</title>
+    <!--esto cambia el titulo de la pagina-->
+</head>
+<style> 
+/*esto crea las etiqutas de CSS dentro de un HTML, sin la nesecidad de crear un archivo CSS */
+    .titulo {
+        color: blue;
+        /*esto cambia el color de los titulos principales*/
+    }
+
+    .SubTitulo {
+        color: rgb(8, 190, 190);
+        /*esto camcia el color de los subtitulos*/
+    }
+
+    .caja {
+        display: flex;
+        /*esto acomoda las imagenes y texto uno abajo del otro*/
+        justify-content: center;
+        /*esto centra todo*/
+    }
+
+    .caja2 {
+        background-color: rgb(8, 123, 190);
+        /*esto cambia el color de fondo*/
+        color: white;
+        /*esto cambia el coor de las letras*/
+        position: absolute;
+        /*esto hace posible mover el bloque*/
+        top: 90px;
+        /*esto mueve el bloque arriba*/
+        left: 770px;
+        /*esto mueve el bloque hacia la izquierda*/
+    }
+
+    .caja3 {
+        position: absolute;
+        /**/
+        top: 110px;
+        /*esto mueve la imagen arriba*/
+        left: 770px;
+        /*esto mueve el texto hacia la izquierda*/
+        color: rgb(255, 255, 255);
+        /*esto cambia el color de las letras*/
+    }
+
+    .caja4 {
+        position: absolute;
+        /**/
+        top: 125px;
+        /*esto mueve el textohacie arriba*/
+        left: 770px;
+        /*esto mueve el texto hacia la izquierda*/
+        color: rgb(255, 255, 255);
+        /*esto cambia el color de las letras*/
+    }
+
+    .tilde {
+        position: absolute;
+        /*esto hacec posible mover la imagen*/
+        top: 190px;
+        /*esto mueve la imagen arriba*/
+        right: 780px;
+        /*esto mueve la imagen hacia la izquierda*/
+    }
+
+    .penguin {
+        display: flex;
+        /*esto acomoda la imagen del pinguino y el texto uno al lado del otro*/
+    }
+
+    .tilde2 {
+        display: flex;
+        /*esto acomoda la imagen de la tilde y el texto uno al lado del otro*/
+    }
+
+    .caja5 {
+        border: 1px solid grey;
+        /*esto crea el borde de la caja*/
+        padding: 15px;
+        /*esto hace un espacio entra el borde y el contenido de la caja*/
+    }
+
+    .correo {
+        background-color: blue;
+        /*esto cambia el color de fondo*/
+        color: white;
+        /*esto cambia el color de las letras*/
+        border-radius: 30px;
+        /*esto reduce los bordes del fondo haciendol mas circular*/
+        position: fixed;
+        /*esto fija la posicion de la imagen*/
+        bottom: 15px;
+        /*esto acomoda la imagen abajo*/
+        right: 15px;
+        /*esto acomoda la imagen*/
+        padding: 5px;
+        /*separa la imagen del borde*/
+        font-size: 15px;
+        /*esto le da el ancho al fondo*/
+    }
+</style>
+
+<body>
+    <main>
+        <!--esto abre el main, el cual es el cuerpo-->
+        <section class="caja">
+            <!--esto crea la seccion conectada con la clase "caja"-->
+            <div class="caja5">
+                <!--este es el div padre que encierra a todos los demas div´s, conectado con la clase "caja5"-->
+                <div>
+                    <!--esto crea el primer div hijo-->
+                    <img src="persona.png" alt="" width="400px">
+                    <!--esto agrega la imagen principal-->
+                    <img src="tilde2.png" alt="" width="60px" class="tilde">
+                    <!--esto agrega la la imagen de la tilde o paloma conectada con la clase "tilde"-->
+                    <p class="caja2"><strong>Licenciatura en </strong></p>
+                    <!--esto crea un parrafo conectado a la clase "caja2"-->
+                    <p class="caja3"><strong>Administracion de</strong></p>
+                    <!--esto crea un parrafo conectado a la clase "caja3"-->
+                    <p class="caja4"><strong>Areas Naturales </strong></p>
+                    <!--esto crea un parrafo conectado a la clase "caja4"-->
+                </div>
+                <!--esto cierra el primer div hijo-->
+
+                <div class="penguin">
+                    <!--esto abre el segundo div hijo conectado con la clase "penguin"-->
+                    <div>
+                        <!--esto abre el div que contiene la imagen-->
+                        <img src="penguin.png" alt="" width="70px">
+                        <!--esto agrega la imagen del pinguino-->
+                    </div>
+                    <!--esto cierra el div-->
+                    <div>
+                        <!--esto abre el div-->
+                        <p class="titulo"><strong>Lic. en Administracion de Areas</strong> </p>
+                        <!--esto crea un parrafo conectado a la clase "titulo"-->
+                        <p class="titulo"><strong>Naturales</strong> </p>
+                        <!--esto crea un parrafo conectado a la clase "titulo"-->
+                        <p class="SubTitulo"><strong>Presencial: Pto. Madryn</strong> </p>
+                        <!--esto crea un parrafo conectado a la clase "SubTitulo"-->
+                        <p class="SubTitulo"><strong>Duracion 5 Años</strong></p>
+                        <!--esto crea un parrafo conectado a la clase "subtitulo"-->
+                    </div> <!--esto cierra el div-->
+                </div>
+                <!--eso cierra el segundo div hijo-->
+
+                <div class="tilde2">
+                    <!--esto abre el tercer div hijo, conectado con la clase "tilde2"-->
+                    <div>
+                        <!--esto abre el div-->
+                        <img src="tilde.jpg" width="70px">
+                        <!--esto agrega la imagen de la tilde o paloma-->
+                    </div>
+                    <!--esto cierra el div-->
+                    <div>
+                        <!--esto abre el div-->
+                        <p class="titulo"><strong>Tec. Univ. Guardaparques</strong></p>
+                        <!--esto crea un parrafo conectado a la clase "titulo" y remarcado con la etiqueta strong-->
+                        <p class="SubTitulo"><strong>Presencial: Pto. Madryn</strong></p>
+                        <!--esto crea un parrafo conectado a la clase "Subtitulo" y remarcado con la etiqueta strong-->
+                        <p class="SubTitulo"><strong>Duracion: 3 Años</strong></p>
+                        <!--esto crea un parrafo conectado a la clase "Subtitulo" y remarcado con la etiqueta strong-->
+                    </div>
+                    <!--esto cierra el div-->
+                </div>
+                <!--esto cierra el tercer div hijo-->
+
+                <div class="correo">
+                    <!--esto habre el div y lo conecta con la clase "correo"-->
+                    <p><img src="correo2.png" alt="" width="15px"><strong>Contactar</strong></p>
+                    <!--esto hace el vinculo con el correo-->
+                </div>
+                <!--este es el cierre del div-->
+
+            </div>
+            <!--este es el cierre del div padre-->
+        </section>
+        <!--este es el cierre del section-->
+    </main>
+    <!--este es el cierre del main-->
+</body>
+
+</html>
