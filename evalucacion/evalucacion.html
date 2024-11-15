@@ -33,18 +33,18 @@
         /*esto cambia el coor de las letras*/
         position: absolute;
         /*esto hace posible mover el bloque*/
-        top: 90px;
+        top: 150px;
         /*esto mueve el bloque arriba*/
-        left: 770px;
+        left: 15px;
         /*esto mueve el bloque hacia la izquierda*/
     }
 
     .caja3 {
         position: absolute;
-        /**/
-        top: 110px;
+        /*esto hace posible mover el texto*/
+        top: 170px;
         /*esto mueve la imagen arriba*/
-        left: 770px;
+        left: 15px;
         /*esto mueve el texto hacia la izquierda*/
         color: rgb(255, 255, 255);
         /*esto cambia el color de las letras*/
@@ -52,10 +52,10 @@
 
     .caja4 {
         position: absolute;
-        /**/
-        top: 125px;
-        /*esto mueve el textohacie arriba*/
-        left: 770px;
+        /*esto hace posible mover el texto*/
+        bottom: 30px;
+        /*esto mueve el texto hacia abajo*/
+        left: 15px;
         /*esto mueve el texto hacia la izquierda*/
         color: rgb(255, 255, 255);
         /*esto cambia el color de las letras*/
@@ -64,15 +64,16 @@
     .tilde {
         position: absolute;
         /*esto hacec posible mover la imagen*/
-        top: 190px;
+        top: 170px;
         /*esto mueve la imagen arriba*/
-        right: 780px;
+        right: 15px;
         /*esto mueve la imagen hacia la izquierda*/
     }
 
     .penguin {
         display: flex;
         /*esto acomoda la imagen del pinguino y el texto uno al lado del otro*/
+        padding: 10px;
     }
 
     .tilde2 {
@@ -84,7 +85,6 @@
         border: 1px solid grey;
         /*esto crea el borde de la caja*/
         padding: 15px;
-        /*esto hace un espacio entra el borde y el contenido de la caja*/
     }
 
     .correo {
@@ -105,6 +105,9 @@
         font-size: 15px;
         /*esto le da el ancho al fondo*/
     }
+    .caja6{
+position: relative;
+    }
 </style>
 
 <body>
@@ -114,7 +117,7 @@
             <!--esto crea la seccion conectada con la clase "caja"-->
             <div class="caja5">
                 <!--este es el div padre que encierra a todos los demas div´s, conectado con la clase "caja5"-->
-                <div>
+                <div class="caja6">
                     <!--esto crea el primer div hijo-->
                     <img src="persona.png" alt="" width="400px">
                     <!--esto agrega la imagen principal-->
